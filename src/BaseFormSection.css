@@ -1,0 +1,17 @@
+.BaseFormSection-container {
+    background-color: #191d3a;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.BaseFormSection-container h2 {
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+.BaseFormSection-children {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
