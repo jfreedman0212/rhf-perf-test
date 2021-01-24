@@ -1,6 +1,7 @@
 import './Form.css';
 import ApplicantInformation from './ApplicantInformation';
 import CurrentAddress from './CurrentAddress';
+import VehicleInformation from './VehicleInformation';
 import { FormProvider, useForm } from 'react-hook-form';
 
 function Form() {
@@ -24,6 +25,8 @@ function Form() {
         <h1>Rental Application Form</h1>
         <ApplicantInformation />
         <CurrentAddress />
+        <h2>Vehicle Information</h2>
+        <VehicleInformation />
         <div className="Form-buttons">
           <button type="reset">Reset</button>
           <button type="submit">Submit</button>
